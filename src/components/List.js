@@ -1,10 +1,14 @@
 import React from 'react'
 
+const inline = {
+    float: 'left'
+}
+
 function List(props) {
     const item = props.item
     return (
         <div>
-            <li>{item} <button onClick={() => props.deleteHandler(item)}>Delete</button></li>
+            <li style={inline}>{item} <button onClick={() => props.deleteHandler(item)}>Delete</button></li>
         </div>
     )
 }
