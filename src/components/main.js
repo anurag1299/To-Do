@@ -64,7 +64,6 @@ const inline = {
                 <ul style={inline}>
                 {itemList}
                 </ul>
-                
             </div>
         )
     }
